@@ -2,7 +2,7 @@
 
 # What is git
   Git is a distributed version-control system for tracking changes in source code during software development. 
-# How to start with GIT
+### How to start with GIT
 1. create dev_dir in your local system
 2. Run Command:  
   >>  git init  (Once you will do this , this directory will be tracked by GIT)
@@ -22,4 +22,4 @@
 10.  If at all you change any commited file just you need to apply
    >> git commit -m "update-message"  (This will push to local repository not to git location)
    >> git push origin master (To push to git repository)
-# HOW to 
+### How to clone the repository 
