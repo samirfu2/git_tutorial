@@ -39,4 +39,14 @@
 ### Git Log 
      To check the history of the git 
   1. >> git log (It will display the logs of the brach or master depends on where you are currently)
-  2. 
+  
+### Git Stash
+     Do not want to save your work space to your git repository. To Stash you staged  files without committing just type 
+  1. >> git stash ( It is remove all the current changed files which is under local repository and also to stash the untracked file as           well )
+  2. >> git stash pop (If you wanted to get back the old changes , it is like undo of git stash)
+### Git Revert
+   1.  git log (It will display the commited logs and with ID)
+   2.  git revert <commited ID from above> (It will reverted to the commited ID) 
+   3.  git checkout <commited ID from above> (To check what changes)
+### Git Diff
+    
