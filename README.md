@@ -29,4 +29,14 @@
   3. >> git clone "url_repository_name" (It will copy the directory form git repo- not need to do git init and git remote add origin "<URL         to repository>")
   4. >> git pull origin master (This will pull the file from origin to local repository-- use full when multiple developer wil working for         same project, one of the developer wanted to update there local repos before starting new development)
 ### Git Branches
-  
+  This is use full when multiple developer is working 
+ 1. >> git branch <name_of_the_new_branch> (Create and use: Any developer can work on branch and after that they can merge the brach to    
+     master - The last commit to the master will be the first commit to the git branch)
+ 2. >> git brach (List all the branches)
+ 3. >> git branch -D <branch_name> (Simply to delete the branch)
+ 4. >> git checkout branch_name (To switch to the new brach from current branch)
+ 5. >> git push origin branch_name (Pushed the new file to branch_name)
+### Git Log 
+     To check the history of the git 
+  1. >> git log (It will display the logs of the brach or master depends on where you are currently)
+  2. 
