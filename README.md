@@ -26,5 +26,7 @@
   Suppose you wanted to take some once code to you dev folder, for that you need to clone the repository
   1. Create your local directory using mkdir "folder_name"
   2. change to folder_name (cd folder_name)
-  3. >> git clone "url_repository_name" (It will copy the directory form git repo- not need to do git init)
+  3. >> git clone "url_repository_name" (It will copy the directory form git repo- not need to do git init and git remote add origin "<URL         to repository>")
+  4. >> git pull origin master (This will pull the file from origin to local repository-- use full when multiple developer wil working for         same project, one of the developer wanted to update there local repos before starting new development)
+### Git Branches
   
