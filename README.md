@@ -23,3 +23,8 @@
    >> git commit -m "update-message"  (This will push to local repository not to git location)
    >> git push origin master (To push to git repository)
 ### How to clone the repository 
+  Suppose you wanted to take some once code to you dev folder, for that you need to clone the repository
+  1. Create your local directory using mkdir "folder_name"
+  2. change to folder_name (cd folder_name)
+  3. >> git clone "url_repository_name" (It will copy the directory form git repo- not need to do git init)
+  
