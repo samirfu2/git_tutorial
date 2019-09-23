@@ -45,8 +45,8 @@
   1. >> git stash ( It is remove all the current changed files which is under local repository and also to stash the untracked file as           well )
   2. >> git stash pop (If you wanted to get back the old changes , it is like undo of git stash)
 ### Git Revert
-   1.  git log (It will display the commited logs and with ID)
-   2.  git revert <commited ID from above> (It will reverted to the commited ID) 
-   3.  git checkout <commited ID from above> (To check what changes)
+   1. >> git log (It will display the commited logs and with ID)
+   2. >> git revert <commited ID from above> (It will reverted to the commited ID) 
+   3. >> git checkout <commited ID from above> (To check what changes)
 ### Git Diff
     
